@@ -1,4 +1,4 @@
-//% weight=100 color=#5abcab icon=":)"
+//% weight=100 color=#5abcab icon="😃"
 //        >>
 namespace cars {
     /**
