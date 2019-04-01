@@ -1,3 +1,4 @@
+//% weight=100 color=#5abcab icon=""
 namespace cars {
     /**
      * TODO: describe your function here
