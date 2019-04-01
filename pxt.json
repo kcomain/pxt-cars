@@ -1,7 +1,7 @@
 {
     "name": "pxt-cars",
-    "version": "0.0.0",
-    "description": "",
+    "version": "0.0.1",
+    "description": "A simple yet robust extention for SPKC mCAR things.",
     "dependencies": {
         "core": "*",
         "radio": "*"
