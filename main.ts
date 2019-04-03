@@ -47,7 +47,7 @@ namespace cars {
     //% block
     export function LeftTurn(): void {
         pins.analogWritePin(ap2, 500)
-        pins.digitalWritePin(ap8, 0)
+        pins.digitalWritePin(dp8, 0)
         pins.analogWritePin(ap0, 500)
         pins.digitalWritePin(dp1, 0)
     }
