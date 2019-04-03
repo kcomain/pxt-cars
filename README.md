@@ -11,7 +11,7 @@
 - [ ] Use "pxt bump" to create a tagged release on GitHub
 - [ ] Get your package reviewed and approved https://makecode.microbit.org/packages/approval
 
-Read more at https://makecode.microbit.org/packages/build-your-own
+Read more at https://makecode.microbit.org/packages/build-your-nnreufnown
 
 ## License
 
