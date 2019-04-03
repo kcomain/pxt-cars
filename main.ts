@@ -72,6 +72,5 @@ namespace cars {
         pins.digitalWritePin(DigitalPin.P2, 0)
         pins.analogWritePin(AnalogPin.P0, speed)
         pins.digitalWritePin(DigitalPin.P1, 0)
-        pins.digitalWrite
     }
 }
