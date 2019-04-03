@@ -26,48 +26,48 @@ namespace cars {
     }
 
     //% block
-    export function LeftWheelForward(speed: number): void {
+    export function LeftWheelForwardWithSpeed(speed: number): void {
         pins.analogWritePin(ap8, speed)
         pins.digitalWritePin(dp2, 0)
     }
     //% block
-    export function LeftWheelBackward(speed: number): void {
+    export function LeftWheelBackwardWithSpeed(speed: number): void {
         pins.analogWritePin(ap2, speed)
         pins.digitalWritePin(dp8, 0)
     }
     //% block
-    export function RightWheelForward(speed: number): void {
+    export function RightWheelForwardWithSpeed(speed: number): void {
         pins.analogWritePin(ap0, speed)
         pins.digitalWritePin(dp1, 0)
     }
     //% block
-    export function RightWheelBackward(speed: number): void {
+    export function RightWheelBackwardWithSpeed(speed: number): void {
         pins.analogWritePin(ap1, speed)
         pins.digitalWritePin(dp0, 0)
     }
     //% block
-    export function LeftTurn(speed: number): void {
+    export function LeftTurnWithSpeed(speed: number): void {
         pins.analogWritePin(ap2, speed)
         pins.digitalWritePin(dp8, 0)
         pins.analogWritePin(ap0, speed)
         pins.digitalWritePin(dp1, 0)
     }
     //% block
-    export function RightTurn(speed: number): void {
+    export function RightTurnWithSpeed(speed: number): void {
         pins.analogWritePin(ap1, speed)
         pins.digitalWritePin(dp0, 0)
         pins.analogWritePin(ap8, speed)
         pins.digitalWritePin(dp2, 0)
     }
     //% block
-    export function MoveBackward(speed: number): void {
+    export function MoveBackwardWithSpeed(speed: number): void {
         pins.analogWritePin(ap1, speed)
         pins.digitalWritePin(dp0, 0)
         pins.analogWritePin(ap2, speed)
         pins.digitalWritePin(dp8, 0)
     }
     //% block
-    export function MoveForward(speed: number): void {
+    export function MoveForwardWithSpeed(speed: number): void {
         pins.analogWritePin(ap8, speed)
         pins.digitalWritePin(dp2, 0)
         pins.analogWritePin(ap0, speed)
