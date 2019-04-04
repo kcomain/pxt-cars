@@ -17,6 +17,11 @@ namespace cars {
     let ap11 = AnalogPin.P11
     let ap12 = AnalogPin.P12
     let ap13 = AnalogPin.P13
+    let ap14 = AnalogPin.P14
+    let ap15 = AnalogPin.P15
+    let ap16 = AnalogPin.P16
+    let ap19 = AnalogPin.P19
+    let ap20 = AnalogPin.P20
     let dp0 = DigitalPin.P0
     let dp1 = DigitalPin.P1
     let dp2 = DigitalPin.P2
