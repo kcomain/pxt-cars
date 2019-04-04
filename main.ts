@@ -1,11 +1,22 @@
 //% weight=100 color=#5abcab icon=""
 //        >>
+
+// //[%] v.min=0 v.max= 42 x.defl=25
 namespace cars {
     let ap0 = AnalogPin.P0
     let ap1 = AnalogPin.P1
     let ap2 = AnalogPin.P2
+    let ap3 = AnalogPin.P3
+    let ap4 = AnalogPin.P4
+    let ap5 = AnalogPin.P5
+    let ap6 = AnalogPin.P6
+    let ap7 = AnalogPin.P7
     let ap8 = AnalogPin.P8
-
+    let ap9 = AnalogPin.P9
+    let ap10 = AnalogPin.P10
+    let ap11 = AnalogPin.P11
+    let ap12 = AnalogPin.P12
+    let ap13 = AnalogPin.P13
     let dp0 = DigitalPin.P0
     let dp1 = DigitalPin.P1
     let dp2 = DigitalPin.P2
