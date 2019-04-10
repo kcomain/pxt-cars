@@ -1,4 +1,4 @@
-//% weight=100 color=#5abcab icon="\uf1b9"
+﻿//% weight=100 color=#5abcab icon="\uf1b9"
 //        >>
 
 // //[%] v.min=0 v.max= 42 x.defl=25
@@ -25,7 +25,22 @@ namespace cars {
     let dp0 = DigitalPin.P0
     let dp1 = DigitalPin.P1
     let dp2 = DigitalPin.P2
+    let dp3 = DigitalPin.P3
+    let dp4 = DigitalPin.P4
+    let dp5 = DigitalPin.P5
+    let dp6 = DigitalPin.P6
+    let dp7 = DigitalPin.P7
     let dp8 = DigitalPin.P8
+    let dp9 = DigitalPin.P9
+    let dp10 = DigitalPin.P10
+    let dp11 = DigitalPin.P11
+    let dp12 = DigitalPin.P12
+    let dp13 = DigitalPin.P13
+    let dp14 = DigitalPin.P14
+    let dp15 = DigitalPin.P15
+    let dp16 = DigitalPin.P16
+    let dp19 = DigitalPin.P19
+    let dp20 = DigitalPin.P20
     /**
      * TODO: describe your function here
      * @param StopAll degfjkhbghsdngfdnfsd DESPACITO
