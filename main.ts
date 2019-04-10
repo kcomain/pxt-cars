@@ -1,6 +1,6 @@
 ﻿//% weight=100 color=#5abcab icon="\uf1b9"
 //        >>
-
+// Latest 1.0.1 version
 // //[%] v.min=0 v.max= 42 x.defl=25
 namespace cars {
     let ap0 = AnalogPin.P0
