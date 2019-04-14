@@ -108,4 +108,4 @@ Start-Sleep -Milliseconds $randtime
 $rand=Get-Random -Minimum ($rand+1) -Maximum ($rand+10)
 cls
 echo "All Done."
-return 0
+return 
