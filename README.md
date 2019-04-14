@@ -1,6 +1,6 @@
 # pxt-cars
 
-[![Build Status](https://travis-ci.org/kcomain/pxt-cars.svg?branch=master)](https://travis-ci.org/kcomain/pxt-cars)
+[![Build Status](https://travis-ci.org/kcomain/pxt-cars.svg?branch=master)](https://travis-ci.org/kcomain/pxt-cars) [![Greenkeeper badge](https://badges.greenkeeper.io/kcomain/pxt-cars.svg)](https://greenkeeper.io/)
 
 ## TODO
 
