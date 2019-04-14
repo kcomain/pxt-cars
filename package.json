@@ -1,0 +1,8 @@
+{
+  "name": "pxt-cars",
+  "version": "1.0.1",
+  "private": false,
+  "dependencies": {
+  "typescript": "latest"
+  }
+}
