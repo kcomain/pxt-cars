@@ -1,7 +1,15 @@
-$progID = 91451
+﻿$progID = 91451
 #defining variables
 $LOCA=$PWD
 #realcode
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object "..........................................."
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object ".██..██...██████...██......██.......██████."
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object ".██..██...██.......██......██.......██..██."
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object ".██████...██████...██......██.......██..██."
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object ".██..██...██.......██......██.......██..██."
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object ".██..██...██████...█████...██████...██████."
+Write-Host -BackgroundColor yellow -ForegroundColor green -Object "..........................................."
+
 $randinit=Get-Random -Minimum 0 -Maximum 10
 Write-Progress -Activity "Locating current working directory..." -Id $progID -PercentComplete 25 
 Write-Progress -Activity "Get Directory, $LOCA" -Id $progID -PercentComplete $randinit 
