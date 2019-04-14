@@ -1,6 +1,6 @@
 {
   "name": "pxt-cars",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "private": false,
   "dependencies": {
     "typescript": "3.3.3333",
