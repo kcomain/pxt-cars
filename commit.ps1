@@ -15,7 +15,6 @@ Write-Progress -Activity "Staging files..." -Id $progID -PercentComplete 50
 git add *
 $randtime=Get-Random -Minimum 100 -Maximum 500 -Completed
 Start-Sleep -Milliseconds $randtime
-$progID = 96142
 Write-Progress -Activity "Committing..." -Id $progID -PercentComplete $rand 
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
@@ -44,11 +43,10 @@ Write-Progress -Activity "Committing..." -Id $progID -PercentComplete $rand
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
 $rand=Get-Random -Minimum ($rand+1) -Maximum ($rand+10)
-Write-Progress -Activity "Committing..." -Id $progID -PercentComplete $rand  -Completed
+Write-Progress -Activity "Committing..." -Id $progID -PercentComplete $rand
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
 $rand=Get-Random -Minimum ($rand+1) -Maximum ($rand+10)
-$progID=91643
 Write-Progress -Activity "Pushing..." -Id $progID -PercentComplete $rand 
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
@@ -104,7 +102,7 @@ Write-Progress -Activity "Pushing..." -Id $progID -PercentComplete $rand
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
 $rand=Get-Random -Minimum ($rand+1) -Maximum ($rand+10)
-Write-Progress -Activity "Pushing..." -Id $progID -PercentComplete $rand -Completed
+Write-Progress -Activity "Pushing..." -Id $progID -PercentComplete $rand 
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
 $rand=Get-Random -Minimum ($rand+1) -Maximum ($rand+10)
