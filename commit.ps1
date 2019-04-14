@@ -1,5 +1,5 @@
 $progID = 91451
-
+$ErrorActionPreference= 'silentlycontinue'
 #defining variables
 $LOCA=$PWD
 #realcode
