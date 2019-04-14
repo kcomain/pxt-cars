@@ -1,30 +1,14 @@
 # Defining Variables...
-
 $LOCA = $PWD
-
-function timestamp() {
-
-  date +"%T"
-
-}
-
 # Real Code HERE
-
 echo "Locating..."
-
 echo "I think the current location is $LOCA."
-
 echo "Staging Files..."
-
 git add *
-
 echo "Committing Changes..."
-
-git commit -m "Automatic commit flow at $(timestamp)"
+$time = Get-Date –format 'yyyyMMdd_hhmmss’
+git commit -m "Automatic commit flow at $time"
 echo "Pushing commits......"
-
 git push
-
 echo "DONE"
-
 return 0
