@@ -1,0 +1,46 @@
+# Defining Variables...
+LOCA=$PWD
+
+# Checking Git is installed.
+
+GITLOC = where git
+
+	if [[ $GITLOC=="INFO: Could not find files for the given pattern(s)."]];then
+
+		echo "I think Git is not installed."
+
+		echo "I get $GITLOC for where git command."
+
+		echo "Returning code 3 for unsuccessful location check."
+
+		return 3
+
+	else
+
+		echo "Logging locations of where git is installed."
+
+		echo $GITLOC
+
+	fi
+
+
+# Real Code HERE
+
+echo "Locating..."
+
+echo "I think the current location is $LCOA."
+
+echo "Staging Files..."
+
+git add *
+
+echo "Committing Changes..."
+
+git commit -c 
+echo "Pushing commits......"
+
+git push
+
+echo "DONE"
+
+return 0
