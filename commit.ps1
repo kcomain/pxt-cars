@@ -113,7 +113,6 @@ Write-Progress -Activity "Pushing..." -Id $progID -PercentComplete $rand  -error
 $randtime=Get-Random -Minimum 100 -Maximum 500
 Start-Sleep -Milliseconds $randtime
 $rand=Get-Random -Minimum ($rand+1) -Maximum ($rand+10)
-cls
 Write-Host -BackgroundColor black -ForegroundColor green -Object "....................................."
 Write-Host -BackgroundColor black -ForegroundColor green -Object ".████.....██████...████..██...██████."
 Write-Host -BackgroundColor black -ForegroundColor green -Object ".██..██...██..██...██.██.██...██....."
