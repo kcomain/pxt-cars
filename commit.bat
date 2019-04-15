@@ -1,4 +1,5 @@
 @echo off
+cls
 echo Welcome to this automatic github committer.
 echo Written by Kenny Cheung (Update on 2019/04/15)
 echo Proteched by CC BY-SA 4.0
