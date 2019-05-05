@@ -11,59 +11,60 @@ namespace cars {
      */
 
     //% block
+    
     export function StopAll(): void {
-        pins.analogWritePin(ap0, 0)
-        pins.analogWritePin(ap1, 0)
-        pins.analogWritePin(ap2, 0)
-        pins.analogWritePin(ap8, 0)
+        pins.analogWritePin(AnalogPin.P0, 0)
+        pins.analogWritePin(AnalogPin.P1, 0)
+        pins.analogWritePin(AnalogPin.P2, 0)
+        pins.analogWritePin(AnalogPin.P8, 0)
     }
 
     //% block
     export function LeftWheelForwardWithSpeed(speed: number): void {
-        pins.analogWritePin(ap8, speed)
-        pins.digitalWritePin(dp2, 0)
+        pins.analogWritePin(AnalogPin.P8, speed)
+        pins.digitalWritePin(DigitalPin.P2, 0)
     }
     //% block
     export function LeftWheelBackwardWithSpeed(speed: number): void {
-        pins.analogWritePin(ap2, speed)
-        pins.digitalWritePin(dp8, 0)
+        pins.analogWritePin(AnalogPin.P2, speed)
+        pins.digitalWritePin(DigitalPin.P8, 0)
     }
     //% block
     export function RightWheelForwardWithSpeed(speed: number): void {
-        pins.analogWritePin(ap0, speed)
-        pins.digitalWritePin(dp1, 0)
+        pins.analogWritePin(AnalogPin.P0, speed)
+        pins.digitalWritePin(DigitalPin.P1, 0)
     }
     //% block
     export function RightWheelBackwardWithSpeed(speed: number): void {
-        pins.analogWritePin(ap1, speed)
-        pins.digitalWritePin(dp0, 0)
+        pins.analogWritePin(AnalogPin.P1, speed)
+        pins.digitalWritePin(DigitalPin.P0, 0)
     }
     //% block
     export function LeftTurnWithSpeed(speed: number): void {
-        pins.analogWritePin(ap2, speed)
-        pins.digitalWritePin(dp8, 0)
-        pins.analogWritePin(ap0, speed)
-        pins.digitalWritePin(dp1, 0)
+        pins.analogWritePin(AnalogPin.P2, speed)
+        pins.digitalWritePin(DigitalPin.P8, 0)
+        pins.analogWritePin(AnalogPin.P0, speed)
+        pins.digitalWritePin(DigitalPin.P1, 0)
     }
     //% block
     export function RightTurnWithSpeed(speed: number): void {
-        pins.analogWritePin(ap1, speed)
-        pins.digitalWritePin(dp0, 0)
-        pins.analogWritePin(ap8, speed)
-        pins.digitalWritePin(dp2, 0)
+        pins.analogWritePin(AnalogPin.P1, speed)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.analogWritePin(AnalogPin.P8, speed)
+        pins.digitalWritePin(DigitalPin.P2, 0)
     }
     //% block
     export function MoveBackwardWithSpeed(speed: number): void {
-        pins.analogWritePin(ap1, speed)
-        pins.digitalWritePin(dp0, 0)
-        pins.analogWritePin(ap2, speed)
-        pins.digitalWritePin(dp8, 0)
+        pins.analogWritePin(AnalogPin.P1, speed)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.analogWritePin(AnalogPin.P2, speed)
+        pins.digitalWritePin(DigitalPin.P8, 0)
     }
     //% block
     export function MoveForwardWithSpeed(speed: number): void {
-        pins.analogWritePin(ap8, speed)
-        pins.digitalWritePin(dp2, 0)
-        pins.analogWritePin(ap0, speed)
-        pins.digitalWritePin(dp1, 0)
+        pins.analogWritePin(AnalogPin.P8, speed)
+        pins.digitalWritePin(DigitalPin.P2, 0)
+        pins.analogWritePin(AnalogPin.P0, speed)
+        pins.digitalWritePin(DigitalPin.P1, 0)
     }
 }
